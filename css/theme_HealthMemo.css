@@ -1,0 +1,199 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+   padding-top: 70px;
+  
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+
+footer {
+	/*background-color: #082457;*/
+	color: #fff;
+	padding: 20px 0;
+	position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+}
+
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+  margin: 5px 0;
+}
+
+.theme-showcase .navbar .container {
+  width: auto;
+}
+
+.logo {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 20%;
+}
+
+.rigth {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.header {
+  margin-top: 10%;
+  text-align: center;
+}
+
+.widgetLoginRegister{
+  display: inline-block;
+  width: 100px;
+  height: 40px;
+  margin-top: 1%;
+  border-radius: 8%;
+  margin-right: 5%; 
+}
+
+#widgetLogin{
+  position: absolute;
+  top: 10px;
+  right: 120px;
+  background-color: #1974d2;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+#widgetRegister{
+  position: absolute;
+  top: 10px;
+  right: 0px;
+  background-color: #1974d2;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+#widgetLogin:hover {
+  background-color: #bcd4e6;
+  box-shadow: 0px 15px 20px rgba(37, 83, 147, 0.69);
+  color: black;
+  transform: translateY(7px);
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+#widgetRegister:hover {
+  background-color: #bcd4e6;
+  box-shadow: 0px 15px 20px rgba(67, 227, 241, 0.56);
+  color: black;
+  transform: translateY(7px);
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+#textLogin{
+  width: 100%;
+  text-align: center; 
+  padding-top: 10px;
+  color: white;  
+}
+#textRegister{
+  width: 100%;
+  text-align: center; 
+  padding-top: 10px;
+  color: white;
+}
+
+.widgetNotebook{
+  display: inline-block;
+  width: 200px;
+  height: 150px;
+  margin-top: 10%;
+  padding-left: 1%;
+  border-radius: 7%;
+  margin-left: 680px;
+}
+
+.widgetDoctor{
+  display: inline-block;
+  width: 200px;
+  height: 150px;
+  margin-top: 10%;
+  padding-left: 1%;
+  border-radius: 7%;
+  margin-left: 100px;
+}
+
+#widgetNotebook{
+  background-color: #1974d2;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+#widgetDoctor{
+  background-color: #1974d2;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+#widgetNotebook:hover {
+  background-color: #bcd4e6;
+  box-shadow: 0px 15px 20px rgba(37, 83, 147, 0.69);
+  color: black;
+  transform: translateY(7px);
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+#widgetDoctor:hover {
+  background-color: #bcd4e6;
+  box-shadow: 0px 15px 20px rgba(67, 227, 241, 0.56);
+  color: black;
+  transform: translateY(7px);
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+#atext{
+  text-decoration: none;
+}
+
+#textNotebook{
+  width: 90%;
+  text-align: center; 
+  padding-top: 50px;
+  color: black;  
+}
+#textDoctor{
+  width: 90%;
+  text-align: center; 
+  padding-top: 50px;
+  color: black;
+}
+
+@media screen and (max-width: 1453px) {
+  .widgetNotebook{
+    margin-left: 480px;
+  }
+  .widgetDoctor{
+    margin-left: 100px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .widgetNotebook{
+    margin-left: 150px;
+  }
+  .widgetDoctor{
+    margin-left: 100px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .widgetNotebook{
+    margin-left: 100px;
+  }
+  .widgetDoctor{
+    margin-right: 100px;
+  }
+}
